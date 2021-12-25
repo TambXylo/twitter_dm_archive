@@ -106,6 +106,32 @@ body{
   border-bottom: 10px solid transparent;
 }
 
+/* タイムスタンプ */
+.line__container .line__left .date {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 100px;
+  text-align: right;
+  right: 10px;
+  bottom: -20px;
+  font-size: 80%;
+  color: #ffffff;
+}
+
+/* タイムスタンプ(画像) */
+.line__container .line__left .date_image {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 100px;
+  text-align: right;
+  left: 10px;
+  bottom: -20px;
+  font-size: 80%;
+  color: #ffffff;
+}
+
 /* 自分の会話 */
 .line__container .line__right {
     position: relative;
@@ -146,7 +172,7 @@ body{
   margin-left: 80px;
 }
 
-/* 既読エリア */
+/* タイムスタンプ */
 .line__container .line__right .date {
   content: '';
   position: absolute;
@@ -155,19 +181,6 @@ body{
   text-align: right;
   left: -30px;
   bottom: 0px;
-  font-size: 80%;
-  color: #ffffff;
-}
-
-/* 既読エリア */
-.line__container .line__left .date {
-  content: '';
-  position: absolute;
-  display: block;
-  width: 100px;
-  text-align: right;
-  right: 10px;
-  bottom: -20px;
   font-size: 80%;
   color: #ffffff;
 }

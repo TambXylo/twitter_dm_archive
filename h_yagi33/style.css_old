@@ -16,7 +16,7 @@ body{
   margin: 20px auto;
   margin-top: 0%;
   margin-bottom: 0%;
-  font-size: 0.9rem;
+  font-size: 80%;
 }
 
 /* タイトル部分 */
@@ -181,7 +181,6 @@ body{
   text-align: right;
   left: -30px;
   bottom: 0px;
-  font-size: 75%;
-  line-height:normal;
+  font-size: 80%;
   color: #ffffff;
 }

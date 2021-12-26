@@ -10,13 +10,13 @@ body{
   padding:0;
   background: #7494c0;
   overflow: hidden;
-  width: 100%;
-  max-width: 700px;
+  width: 100vw;
+  /* max-width: 700px; */
   height: 100vh;
   margin: 20px auto;
   margin-top: 0%;
   margin-bottom: 0%;
-  font-size: 0.9rem;
+  font-size: 100%;
 }
 
 /* タイトル部分 */
@@ -128,7 +128,7 @@ body{
   text-align: right;
   left: 10px;
   bottom: -20px;
-  font-size: 75%;
+  font-size: 80%;
   color: #ffffff;
 }
 

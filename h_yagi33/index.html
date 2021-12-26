@@ -3,7 +3,20 @@
   <meta charset="UTF-8"/>
   <title>DMアーカイブ - 廿木(h_yagi33)
   </title>
-  <link rel='stylesheet' href='style.css' type='text/css' media='all' />
+
+  <script>
+    (function(){
+        var _UA = navigator.userAgent;
+        if (_UA.indexOf('iPhone') > -1 || _UA.indexOf('iPod')  || _UA.indexOf('ipad') > -1) {
+            document.write('<link rel="stylesheet" href="style_sp.css">');
+        }else if(_UA.indexOf('Android') > -1){
+            document.write('<link rel="stylesheet" href="style_sp.css">');
+        }else{
+            document.write('<link rel="stylesheet" href="style.css">');
+        }
+    })();
+  </script>
+  <link rel='stylesheet' type='text/css' media='all' />
 </head>
 <body>
 
